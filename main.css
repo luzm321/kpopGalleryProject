@@ -1,5 +1,37 @@
-.mfirst {
-color: green;
+.appBody {
+    background: url("./images/final_illo_round_3.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
 
+.appTitleClass {
+    border: 4px solid black;
+    color:seagreen;
+    font-size: 75px;
+    font-weight: bold;  
+    text-align: center;
+    font-family: cursive;
+    margin-top: 0.5%;
+}
 
+.appWelcomeMsgClass {
+    color:darkcyan;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: -4%;
+}
+
+.KGroupsClass {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -2%;
+    color:blanchedalmond;
+}
+
+li.TabLi {
+    border: 2px solid lavender;
 }
