@@ -1,0 +1,69 @@
+.bigBangBgd {
+    background-color: lightblue;
+}
+
+.headerBB {
+    color:cornflowerblue;
+    font-size: 100px;
+    font-family:sans-serif;
+    text-align: center;
+    border-style: groove;
+    border-color:lightsteelblue;
+}
+
+.bigBangGroup {
+    color: lightskyblue;
+    font-family:cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.paragraphBb {
+    text-align: center;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bBPhotoDiv {
+    width: 20%;
+    height: 20%;
+}
+
+.bBbgd {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    /* size: contain; */
+    /* width: 500px;
+    height: 600px; */
+    /* margin-bottom: -50%;
+    margin-top: -50%;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 32%; */
+}
+
+.iconsGif {
+        width: 450px;
+        height: 500px;
+        /* margin-bottom: -50%;
+        margin-top: -50%;
+        size: contain;
+        margin: 0;
+        position: absolute;
+        top: 70%;
+        left: 68%; */
+}
+
+.videoLinkBB {
+    /* size: contain;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 2%; */
+}  

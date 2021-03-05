@@ -56,13 +56,6 @@
 // let newButton = document.getElementsByClassName("TabLi")[18];
 // formulateNewElement("a", "href", "./main.html", "", "", "Follow", newButton);
 
-// Fat Arrow Function below being used for same dynamic function as above in terms of global scope
-// basic skeleton of a fat arrow function is below:
-// let hi = () => {
-//     console.log("hi");
-// };
-
-// hi();
 
 // let buttonElement = document.getElementsByClassName("KGroupsClass")[0];
 
@@ -87,7 +80,6 @@
 //     };
 // };
 
-// Event Listeners
 
 let welcomeMessageElement = document.getElementById("appWelcomeMsgId");
 
@@ -106,3 +98,5 @@ let alterTextOnClick = () => {
 };
 
 titleIntroElement.addEventListener("click", alterTextOnClick);
+
+
