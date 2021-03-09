@@ -100,3 +100,63 @@ let alterTextOnClick = () => {
 titleIntroElement.addEventListener("click", alterTextOnClick);
 
 
+
+
+// class ElementFactory {
+//     constructor(elementTag, attribute1, attributeValue1, attribute2, attributeValue2, innerText, parentElement) {
+//         this.elementTagName = elementTag;
+//         this.attributeName= attribute1;
+//         this.attributeName2 = attribute2;
+//         this.attributeValue = attributeValue1;
+//         this.attributeValue2 = attributeValue2;
+//         this.elementInnerText = innerText;
+//         this.elementParent = parentElement;
+//     };
+
+//     createIt = () => {
+//         let newElement = document.createElement(this.elementTagName);
+//         this.newElement = newElement;
+//     };
+
+
+//     addFirstAttribute = () => {
+//         this.newElement.setAttribute(this.attributeName, this.attributeValue);
+//     };
+
+//     addSecondAttribute = () => {
+//         if(typeof this.attributeName2 === undefined || this.attributeName2 === "") {
+//             console.log(`no second attribute was passed`);
+//         } else {
+//             this.newElement.setAttribute(this.attributeName2, this.attributeValue2);
+//         };
+//     };
+
+//     addInnerText = () => {
+//         this.newElement.innerText = this.elementInnerText;
+//     };
+
+//     appendToParentElement = () => {
+//         this.elementParent.appendChild(this.newElement);
+//     };
+
+// };
+
+// let parentElement = document.getElementById("KGroupsId");
+
+// let createNewElement = (elementTag, attribute1, attributeValue, attribute2, attributeValue2, innerText, parentElement) => {
+//     try {
+//         let newElement = new ElementFactory(elementTag, attribute1, attributeValue, attribute2, attributeValue2, innerText, parentElement);
+//         newElement.createIt();
+//         newElement.addFirstAttribute();
+//         newElement.addSecondAttribute();
+//         newElement.addInnerText();
+//         newElement.appendToParentElement();
+//     } catch (e) {
+//         console.error (`${e}, TagName: ${elementTag}, attributeName1: ${attribute1}, attributeValue1: ${attributeValue},
+//         attributeName2: ${attribute2}, attributeValue2: ${attributeValue2}, innerText: ${innerText}, parentElement: ${parentElement}`);
+//         alert(e);
+//     };
+// };
+
+// createNewElement("button","id", "newButton", "class", "newHomeButton", "Subscribe", parentElement);
+// createNewElement("p", "id", "elementParagraph", "class", "elementParagraph", "Thanks for viewing", parentElement);
