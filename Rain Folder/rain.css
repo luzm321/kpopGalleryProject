@@ -1,24 +1,24 @@
-.btsBgd {
-    background-color: orange;
+.rainBgd {
+    background-color: seashell;
 }
 
-.headerBTS {
-    color: darkslategray;
+.headerRain {
+    color: indianred;
     font-size: 100px;
     font-family:sans-serif;
     text-align: center;
     border-style: groove;
-    border-color: white;
+    border-color: ivory;
 }
 
-.BtsGroup {
-    color: wheat;
+.rainGroup {
+    color: lightseagreen;
     font-family:cursive;
     font-size: 70px;
     text-align: center;
 }
 
-.paragraphBts {
+.paragraphRain {
     text-align: center 
 }
 
@@ -33,7 +33,7 @@
     height: 100%;
 }
 
-.bts-Bgd {
+.rain-Bgd {
     width: 98%;
     height: 100%;
 }
@@ -42,25 +42,6 @@
     width: 450px;
     height: 500px;
     padding-right:7%;
-}
-
-.memberBts {
-    color: darkorange;
-    font-family:cursive;
-    font-size: 60px;
-    text-align: center;
-}
-
-.BBMembers {
-    color: darksalmon;
-    font-family:cursive;
-    font-size: 50px;
-    text-align: center;
-}
-
-.bBbgd {
-    width: 80%;
-    height: 50%;
 }
 
 .iconsLi {
