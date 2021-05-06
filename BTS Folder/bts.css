@@ -1,0 +1,72 @@
+.btsBgd {
+    background-color: orange;
+}
+
+.headerBTS {
+    color: darkslategray;
+    font-size: 100px;
+    font-family:sans-serif;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+}
+
+.BtsGroup {
+    color: wheat;
+    font-family:cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.paragraphBts {
+    text-align: center 
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bBPhotoDiv {
+    width: 40%;
+    height: 100%;
+}
+
+.bts-Bgd {
+    width: 98%;
+    height: 100%;
+}
+
+.iconsGif {
+    width: 450px;
+    height: 500px;
+    padding-right:7%;
+}
+
+.memberBts {
+    color: darkorange;
+    font-family:cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.BBMembers {
+    color: darksalmon;
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bBbgd {
+    width: 80%;
+    height: 50%;
+}
+
+.iconsLi {
+    width: 7%;
+    height: 7%;
+    size: contain;
+    margin-top: 0%;
+    margin-bottom: -3%;
+}
